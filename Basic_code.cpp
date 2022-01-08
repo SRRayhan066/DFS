@@ -29,5 +29,5 @@ int main(){
     for(auto it=vec.begin();it!=vec.end();it++){
         cout<<"vis["<<it->first<<"] :: "<<vis[it->first]<<endl; // checking that all nodes are visited or not
     }
-    
+    return 0;
 }
